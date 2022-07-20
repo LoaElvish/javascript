@@ -1,0 +1,63 @@
+.yellow-bg{
+    background: yellow;
+}
+
+.list-group{
+    display: none;
+}
+
+.show{
+    /* visibility: visible;
+    height: 400px; */
+    display: block;
+}
+/* 
+.navbar-show{
+    visibility: hidden;
+    height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+} */
+
+
+
+.alert-box{
+    background-color: rgb(82, 152, 199);
+    color: rgb(49, 49, 165);
+    border-radius: 5px;
+    padding: 20px;
+    display: none;
+}
+
+#alert{
+    background-color: rgb(82, 152, 199);
+    color: rgb(49, 49, 165);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.black-bg {
+    width : 100%;
+    height : 100%;
+    position : fixed;
+    background : rgba(0,0,0,0.5);
+    z-index : 5;
+    padding: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.white-bg {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+} 
+
+.show-modal {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
